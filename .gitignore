@@ -1,0 +1,30 @@
+# Dependencies - never upload these
+node_modules/
+node_modules
+
+# Environment variables - contains your secret keys
+.env
+.env.local
+.env.development
+.env.production
+
+# Build output - Vercel builds this itself
+dist/
+dist
+
+# Local editor files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lock files differences
+package-lock.json
