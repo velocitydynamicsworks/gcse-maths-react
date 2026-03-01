@@ -1,16 +1,68 @@
-# React + Vite
+# 🧠 GCSE Maths AI Tutor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI powered GCSE Maths tutor web app built for UK Functional Skills Level 2 students.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+[https://gcse-maths-react.vercel.app](https://gcse-maths-react.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- AI powered step by step maths answers
+- User login and signup with email
+- Personal dashboard with progress tracking
+- Question history with search
+- Timed exam mode with countdown timer
+- Premium dark gradient UI
+- Fully mobile responsive
+- Progressive Web App installable on phone
 
-## React Compiler
+## 🛠️ Built With
+- **Frontend:** React, Vite, Tailwind CSS
+- **Backend:** Python, Flask, Groq AI
+- **Database:** Supabase PostgreSQL
+- **Auth:** Supabase Authentication
+- **Deployment:** Vercel and Render
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js
+- Python 3
+- Supabase account
+- Groq API key
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+Clone the repository:
+\`\`\`
+git clone https://github.com/velocitydynamicsworks/gcse-maths-react.git
+\`\`\`
+
+Install dependencies:
+\`\`\`
+npm install
+\`\`\`
+
+Create a .env file:
+\`\`\`
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_API_URL=your_render_backend_url
+\`\`\`
+
+Run locally:
+\`\`\`
+npm run dev
+\`\`\`
+
+## 📱 Mobile App
+This app is a Progressive Web App. Visit the live URL on your Android or iPhone and add it to your home screen for a native app experience.
+
+## 🔒 Security
+- Row Level Security on all database tables
+- Supabase authentication
+- Rate limiting on Flask backend
+- Security headers implemented
+- Environment variables for all secrets
+
+## 👨‍💻 Developer
+Built by velocitydynamicsworks
